@@ -1,0 +1,71 @@
+/* styles.css */
+
+/* ================== Foundational Styles ================== */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+:root {
+    --base-color: #001F54;
+    --cooling-color-1: #1E90FF;
+    --cooling-color-2: #00BFFF;
+    --cooling-color-3: #87CEEB;
+    --heating-color-1: #FF6F61;
+    --heating-color-2: #E63946;
+    --heating-color-3: #FF8C42;
+}
+/* ================== Base layout stylings ================== */
+
+/* ================== Base layout stylings ================== */
+.nav-bar-container {
+    height: 5.5em;
+    padding: 0 1em;
+    margin: 0 !important;
+    position: sticky;
+    background-color: white;
+    color: #001F54;
+    top: 0;
+}
+
+
+.hero-section-container {
+    height: calc(100vh - 5.5em);
+    background-image: url(./images/HeroStockImage.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 !important;
+}
+
+/* ================== Base layout stylings ================== */
+
+/* ================== Navbar ================== */
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    align-content: center;
+    font-size: 2.5em;
+}
+
+.nav-links ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-size: 1.5em;
+}
+
+.nav-links ul li{
+    margin: 0 1em;
+}
+
+.logo {
+ width: 1em;
+ height: 1em;   
+}
+/* ================== Navbar ================== */

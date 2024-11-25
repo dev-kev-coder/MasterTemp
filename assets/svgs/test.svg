@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Fire Shape -->
+  <path d="M100,40 C85,80 105,90 95,130 C115,120 120,105 130,90 C135,70 120,50 100,40 Z" fill="#fe9d01" />
+  
+  <!-- Snowflake Shape -->
+  <g transform="translate(0, 80)" fill="#0086bb">
+    <path d="M100,40 L100,10" stroke="#0086bb" stroke-width="4" />
+    <path d="M100,40 L120,20" stroke="#0086bb" stroke-width="4" />
+    <path d="M100,40 L80,20" stroke="#0086bb" stroke-width="4" />
+    <path d="M100,40 L130,50" stroke="#0086bb" stroke-width="4" />
+    <path d="M100,40 L70,50" stroke="#0086bb" stroke-width="4" />
+    <circle cx="100" cy="40" r="6" fill="#0086bb" />
+  </g>
+
+  <!-- Arrows -->
+  <path d="M50,100 A70,70 0 0,1 150,100" fill="none" stroke="#0086bb" stroke-width="10" marker-end="url(#arrowhead)" />
+  <path d="M150,100 A70,70 0 0,1 50,100" fill="none" stroke="#fe9d01" stroke-width="10" marker-end="url(#arrowhead)" />
+
+  <!-- Arrowhead Marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#0086bb" />
+    </marker>
+  </defs>
+</svg>
